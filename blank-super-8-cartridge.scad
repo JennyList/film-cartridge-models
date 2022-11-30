@@ -24,7 +24,7 @@ module SuperEightShell(){
     //...from bottom to top
     SuperEightOutline(71,76,1,11); // Bottom of the cartridge
     translate([1.5,0,1]) SuperEightOutline();; //Main body of the shell
-    translate([0,0,22]) SuperEightOutline(71,76,1,10.4); // Top of the cartridge. 1.6mm thick for PCB
+    translate([0,0,22]) SuperEightOutline(71,76,1,10.4); // Top of the cartridge.
     cube([71,5,23]); //Strengthen and thicken the front
     translate([11,73.25,00]) cube([9,3,2]); //left protrusion
     translate([51,73.25,00]) cube([9,3,2]); //right protrusion
